@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="CSS\header\header__login.css">
+    <link rel="stylesheet" href="CSS\header\busqueda.css">
+    <link rel="stylesheet" href="CSS\main\encabezado-productos.css">
+    <link rel="stylesheet" href="CSS\main\productos.css">
+    <link rel="stylesheet" href="CSS\body.css">
+    <link rel="stylesheet" href="CSS\header\header.css">
+    <link rel="stylesheet" href="CSS\main\contacto__aluraWeek.css">
+    <link rel="stylesheet" href="footer\footer.css">
+    <link rel="stylesheet" href="CSS\reset.css">
+    <link rel="stylesheet" href="CSS\main\main.css">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="alurageek">
+                <img src="CSS\img\iconos\Vector_control.png" alt="vector control">
+                <h1 class="menu__titulo"><strong>Alura</strong>Geek</h1>
+            </div>
+            <div class="buscador__posicion">
+                <div class="buscador">
+                    <input type="text" placeholder="Buscar" />
+                    <div class="boton">
+                        <i class="icono__buscar"><img src="CSS\img\iconos\search.png" alt="search" class="search"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="section__productos">
+            <div class="encabezado__productos">
+                <h1 class="titulo__todos__productos">Todos los productos</h1>
+                <a href="ingresarProducto.html"><button>Agregar producto</button></a>
+            </div>
+            <div class="todos__productos">
+                
+                <ul class="ul__productos" data-producto>
+                    
+                </ul>
+                
+                
+            </div>
+        </section>
+        <section class="section__contacto">
+            <ul class="contacto__alurageek">
+                <li class="li__contacto__alurageek">
+                    <img src="CSS\img\iconos\Vector_control.png" alt="vector control" class="img__alurageek">
+                    <h1 class="menu__titulo"><strong>Alura</strong>Geek</h1>
+                </li>
+                <li class="li__descripcion">
+                    <p>Quienes Somos</p>
+                    <p>Politica de privacidad</p>
+                    <p>Programa de fidelidad</p>
+                    <p>Nuestras Tiendas</p>
+                    <p>Quiero ser franquiciado</p>
+                    <p>Anúncie aquí</p>
+                </li>
+                <li class="li__grupo">
+                    <h2 class="li__descripcion">Hable con nosotros</h2>
+                    <div class="grupo__input">
+                        <input type="text" class="input" placeholder=" "/>
+                        <label class="placeholder">Nombre</label id="label_nombre">
+                    </div>
+                    <div class="grupo__input">
+                        <textarea name="" id="" cols="30" rows="5" class="input" placeholder=" "></textarea>
+                        <label class="placeholder">Escribe tu mensaje</label>
+                    </div>
+                    <button class="enviar__mensaje"> Enviar Mensaje
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="texto__footer">Desarrollado por Ferney Quiceno <br>2023</p>
+    </footer>
+    <script src="controllers/client-contoller.js" type="module"></script>
+</body>
+
+</html>

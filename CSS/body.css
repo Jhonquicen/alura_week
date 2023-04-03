@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    height: auto;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(../CSS/img/img__body/universo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

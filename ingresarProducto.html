@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Producto</title>
+    <link rel="stylesheet" href="CSS\body.css">
+
+    <link rel="stylesheet" href="CSS\main\contacto__aluraWeek.css">
+    <link rel="stylesheet" href="CSS\main\ingresar_producto.css">
+
+</head>
+
+<body>
+    <form data-form>
+        <section class="form-ingresar">
+            <div>
+                <label for="text" >Ingresar Imagen</label>
+                <input type="text" name="imagen" data-imagen required>
+
+            </div>
+            <div>
+                <label for="text">Ingresar Nombre</label>
+                <input type="text" name="texto" data-nombre required>
+            </div>
+            <div>
+                <label for="number">Ingresar Precio</label>
+                <input type="number" name="number" data-precio>
+            </div>
+            <div>
+                <label for="text">Ingresar Descripcion</label>
+                <input type="text" name="texto" data-descripcion>
+            </div>
+            <div class="wrap">
+            <input type="submit" value="Ingresar" class="ingresar_submit">
+        </div>
+        </section>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="controllers/registro-controller.js" type="module"></script>
+</body>
+
+</html>

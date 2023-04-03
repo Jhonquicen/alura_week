@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/f1cf9cd27e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS\header\header__login.css">
+    <link rel="stylesheet" href="CSS\header\busqueda.css">
+    <link rel="stylesheet" href="CSS\main\login.css">
+    <link rel="stylesheet" href="CSS\main\contacto__aluraWeek.css">
+    <link rel="stylesheet" href="footer\footer.css">
+    <link rel="stylesheet" href="CSS\body.css">
+
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <div class="alurageek">
+                <img src="CSS\img\iconos\Vector_control.png" alt="vector control">
+                <h1 class="menu__titulo"><strong>Alura</strong>Geek</h1>
+            </div>
+            <h1>Bienvenido Administrador</h1>
+        </section>
+    </header>
+    <main>
+        <section class="login__cuadro">
+            <div class="login__container">
+                <img src="CSS\img\iconos\hombre__login.jpg" alt="avatar login">
+                <p></p>
+                <div class="fields">
+                    <form action="productos.html">
+                    <div class="data">
+                        <i>😎</i>
+                        <input type="username" placeholder="Usuario" required>
+                    </div>
+                    <div class="data">
+                        <i>🔒</i>
+
+                        <input type="password" name="password" id="admi" required>
+                        <!-- <input type="password" placeholder="Contraseña" id="" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres y un maximo de 12, debe contener una letra minuscula, una letra mayuscula, un numero y no puede contener caracteres especiales">  //no acepta espacio en blanco y ningun caracter aca expuesto [ !@#$%^&*_=+-] -->
+                    </div>
+                </div>
+                
+                <a href="productos.html" class="link__login"><button class="btn__login"> Login</button></a>
+            </form>
+            </div>
+            <script>
+                document.querySelector('admi').addEventListener('submit', validarClave);
+
+                function validarClave() {
+                    window.event.preventDefault()
+                    if (document.form.password.value == false)
+                        alert("clave incorrecta")
+                        
+                }
+                    console.log("hola")
+                
+
+            </script>
+        </section>
+        <section class="section__contacto">
+            <ul class="contacto__alurageek">
+                <li class="li__contacto__alurageek">
+                    <img src="CSS\img\iconos\Vector_control.png" alt="vector control" class="img__alurageek">
+                    <h1 class="menu__titulo"><strong>Alura</strong>Geek</h1>
+                </li>
+                <li class="li__descripcion">
+                    <p>Quienes Somos</p>
+                    <p>Politica de privacidad</p>
+                    <p>Programa de fidelidad</p>
+                    <p>Nuestras Tiendas</p>
+                    <p>Quiero ser franquiciado</p>
+                    <p>Anúncie aquí</p>
+                </li>
+                <li class="li__grupo">
+                    <h2>Hable con nosotros</h2>
+                    <div class="grupo__input">
+                        <input type="text" class="input" placeholder=" " />
+                        <label class="placeholder">Nombre</label>
+                    </div>
+                    <div class="grupo__input">
+                        <textarea name="" id="" cols="30" rows="5" class="input" placeholder=" "></textarea>
+                        <label class="placeholder">Escribe tu mensaje</label>
+                    </div>
+                    <button class="enviar__mensaje"> Enviar Mensaje 
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p class="texto__footer">Desarrollado por Ferney Quiceno <br>2023</p>
+    </footer>
+    <script src="js\index.js" type="module"></script>
+</body>
+
+</html>

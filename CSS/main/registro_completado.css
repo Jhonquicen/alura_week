@@ -1,0 +1,16 @@
+.registro_completa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mensaje_registro{
+    color: red;
+    font-size: 70px;
+}
+
+.boton_registro_completado{
+    display: flex;
+    gap: 4rem;
+}

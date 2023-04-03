@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login__cuadro{
+    display: flex;
+    justify-content: center;
+}
+
+.login__container{
+    
+    width: 350px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50%);
+    background: #2c5364;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 15px #0f2027,
+    -8px -8px 25px #203a43;
+}
+
+.login__container img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 0px 1px #203a43,
+    0px 0px 0px 5px #2c5364,
+    8px 8px 15px #0f2027,
+    -8px -8px 15px #203a43;
+    margin-bottom: 20px;
+}
+.login__container p{
+    font-size: 20px;
+    font-weight: 600;/*grosor de la letra*/
+    color: #fff;
+    letter-spacing: 2px;/*separar las palabras*/
+    margin-bottom: 20px;
+}
+
+.login__container .fields .data i{
+    color: #fff;
+    margin: 20px 5px 20px 20px;
+}
+.login__container .fields .data{
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #0f2027,
+    inset -8px -8px 8px #203a43;
+    margin-bottom: 20px;
+}
+
+.login__container .fields .data input{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 15px;
+    padding: 20px 20px 20px 5px;
+    color: #fff;
+}
+
+.login__container .link__login .btn__login {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.login__container .link__login .btn__login:hover{
+    background: #203a43;
+    color: #ffffff;
+}
+
+.login__container .link__login .btn__login:active {
+    background: #0f2027;
+}
+
+.login__administrador{
+    text-decoration: none;
+    color: rgb(240, 10, 10);
+}

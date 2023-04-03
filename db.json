@@ -1,0 +1,53 @@
+{
+  "perfil": [
+    {
+      "imagenUrl": "CSS\\img\\producto\\el_gran_diseño.jpg",
+      "nombreProducto": "Gran Diseño",
+      "precio": "123",
+      "descripcion": "Autor: steve hawking",
+      "id": "0fe547c4-643d-4221-947b-58626508bdb2"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\el_increible_universo.jpg",
+      "nombreProducto": "El increible universo",
+      "precio": "12345",
+      "descripcion": "Autor: Karolina Bakowska",
+      "id": "06e812a3-e3ef-4075-900b-052a2645d036"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\el_universo_explicado.jpg",
+      "nombreProducto": "El universo explicado",
+      "precio": "123",
+      "descripcion": "Autor: Doctor fision",
+      "id": "179eac5c-e060-4359-93a9-52c849cbfff4"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\la_desaparicion_del_universo.jpg",
+      "nombreProducto": "La aparicion del universo",
+      "precio": "123",
+      "descripcion": "Autor: Gary Renard",
+      "id": "cae3824d-f6d4-41db-b519-d184545740f9"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\los_misterios_del_universo.jpg",
+      "nombreProducto": "Los misterios del universo",
+      "precio": "123",
+      "descripcion": "Autor: L Parravicini ",
+      "id": "80ca0011-5a23-48a5-8c94-25598b352f97"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\maestros_del_universo.jpg",
+      "nombreProducto": "Maestros del universo",
+      "precio": "123",
+      "descripcion": "Autor: Helge Kragh",
+      "id": "b1aa39b2-9841-4074-b377-50937cb331fe"
+    },
+    {
+      "imagenUrl": "CSS\\img\\producto\\universo_y_planeta.jpg",
+      "nombreProducto": "Universo y planeta ",
+      "precio": "123",
+      "descripcion": "Autor: Carla Nieto",
+      "id": "59588a57-e22c-47ce-93d9-ecc20e73f477"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(116, 138, 146, 0.63);
+    padding: 1rem;
+}
+
+.alurageek{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+strong{
+    color: rgb(25, 41, 187);
+}
+
+.menu__titulo{
+    font-size: 30px;
+}
+
+.buscador__posicion{
+    display: flex;
+    align-items: center;
+    
+}

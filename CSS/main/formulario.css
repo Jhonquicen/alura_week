@@ -1,0 +1,57 @@
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.formulario__columna{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-items: center;
+    margin: 5px;
+}
+
+.formulario__descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+
+.card__title{
+    width: 80%;
+    font-size: 40px;
+}
+
+.input-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(238, 8, 8);
+    margin-top: 20px;
+}
+
+.container__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.label__span{
+    width: 100%;
+}
+
+.card__title{
+    color: rgb(16, 219, 16);
+    width: 100%;
+}
+.informacion__basica{
+    color: rgba(31, 226, 31, 0.678);
+    font-size: 30px;
+}
